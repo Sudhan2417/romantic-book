@@ -310,3 +310,20 @@ body {
   width: auto;
   margin-top: 10px; /* Pushes image slightly down but keeps it higher */
 }
+
+
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "❤ Our Love Story ❤";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  font-weight: bold;
+  pointer-events: none;
+}

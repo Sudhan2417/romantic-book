@@ -185,3 +185,9 @@ function createFloatingHeart() {
 
 // 🎈 Create Floating Hearts Every 0.3 Seconds (Faster Spawning)
 setInterval(createFloatingHeart, 300);
+
+document.onkeydown = function(e) {
+    if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+      return false;
+    }
+  };
