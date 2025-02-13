@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Dancing Script', cursive;
+  /*font-family: 'Dancing Script', cursive;*/
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
 }
 
@@ -85,7 +85,7 @@ body {
 
 /* New Front Cover Style */
 .front-cover {
-  font-family: 'Great Vibes', cursive; /* Unique font for the cover page */
+  font-family: 'Parisienne', cursive;
   font-size: 24px;
   margin: 30px;
   font-weight: bold;
